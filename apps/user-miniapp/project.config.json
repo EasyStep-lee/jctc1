@@ -1,0 +1,10 @@
+{
+  "appid": "touristappid",
+  "projectname": "jctc-user-miniapp",
+  "miniprogramRoot": "src/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "minified": false
+  }
+}

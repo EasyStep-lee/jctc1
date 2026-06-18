@@ -1,0 +1,17 @@
+{
+  "name": "@jctc/openapi-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "openapi:check": "node scripts/check-openapi.mjs",
+    "openapi:generate": "openapi-typescript ../../docs/openapi/openapi.yaml -o src/generated.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.10.0"
+  }
+}
