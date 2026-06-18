@@ -12,9 +12,9 @@
     "prisma:migrate:dry-run": "node scripts/run-prisma.mjs migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script"
   },
   "dependencies": {
-    "@prisma/client": "^6.19.0"
+    "@prisma/client": "6.19.0"
   },
   "devDependencies": {
-    "prisma": "^6.19.0"
+    "prisma": "6.19.0"
   }
 }

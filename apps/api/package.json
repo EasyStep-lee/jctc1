@@ -11,18 +11,18 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.0",
-    "@nestjs/core": "^11.1.0",
-    "@nestjs/platform-express": "^11.1.0",
-    "bullmq": "^5.60.0",
-    "ioredis": "^5.8.0",
-    "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.0",
-    "zod": "^4.1.0"
+    "@nestjs/common": "11.1.27",
+    "@nestjs/core": "11.1.27",
+    "@nestjs/platform-express": "11.1.27",
+    "bullmq": "5.79.0",
+    "ioredis": "5.11.1",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2",
+    "zod": "4.4.3"
   },
   "devDependencies": {
-    "@types/supertest": "^6.0.0",
-    "supertest": "^7.1.0",
-    "tsx": "^4.20.0"
+    "@types/supertest": "6.0.3",
+    "supertest": "7.2.2",
+    "tsx": "4.22.4"
   }
 }

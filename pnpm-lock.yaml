@@ -9,176 +9,176 @@ importers:
   .:
     devDependencies:
       '@eslint/js':
-        specifier: ^9.39.4
+        specifier: 9.39.4
         version: 9.39.4
       '@playwright/test':
-        specifier: ^1.57.0
+        specifier: 1.61.0
         version: 1.61.0
       '@types/node':
-        specifier: ^25.0.0
+        specifier: 25.9.3
         version: 25.9.3
       '@types/react':
-        specifier: ^19.2.17
+        specifier: 19.2.17
         version: 19.2.17
       '@types/react-dom':
-        specifier: ^19.2.3
+        specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.50.0
+        specifier: 8.61.1
         version: 8.61.1(@typescript-eslint/parser@8.61.1(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       '@typescript-eslint/parser':
-        specifier: ^8.50.0
+        specifier: 8.61.1
         version: 8.61.1(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       eslint:
-        specifier: ^9.39.0
+        specifier: 9.39.4
         version: 9.39.4(jiti@2.7.0)
       eslint-config-prettier:
-        specifier: ^10.1.0
+        specifier: 10.1.8
         version: 10.1.8(eslint@9.39.4(jiti@2.7.0))
       prettier:
-        specifier: ^3.6.0
+        specifier: 3.8.4
         version: 3.8.4
       turbo:
-        specifier: ^2.7.0
+        specifier: 2.9.18
         version: 2.9.18
       typescript:
-        specifier: ^5.9.0
+        specifier: 5.9.3
         version: 5.9.3
       vitest:
-        specifier: ^4.0.0
+        specifier: 4.1.9
         version: 4.1.9(@types/node@25.9.3)(vite@7.3.5(@types/node@25.9.3)(jiti@2.7.0)(tsx@4.22.4))
 
   apps/admin-web:
     dependencies:
       '@ant-design/pro-components':
-        specifier: ^2.8.0
+        specifier: 2.8.10
         version: 2.8.10(antd@5.29.3(luxon@3.7.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(rc-field-form@2.7.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/react-query':
-        specifier: ^5.90.0
+        specifier: 5.101.0
         version: 5.101.0(react@19.2.7)
       antd:
-        specifier: ^5.27.0
+        specifier: 5.29.3
         version: 5.29.3(luxon@3.7.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7
       react-dom:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
     devDependencies:
       '@vitejs/plugin-react':
-        specifier: ^5.1.0
+        specifier: 5.2.0
         version: 5.2.0(vite@7.3.5(@types/node@25.9.3)(jiti@2.7.0)(tsx@4.22.4))
       vite:
-        specifier: ^7.2.0
+        specifier: 7.3.5
         version: 7.3.5(@types/node@25.9.3)(jiti@2.7.0)(tsx@4.22.4)
 
   apps/api:
     dependencies:
       '@nestjs/common':
-        specifier: ^11.1.0
+        specifier: 11.1.27
         version: 11.1.27(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core':
-        specifier: ^11.1.0
+        specifier: 11.1.27
         version: 11.1.27(@nestjs/common@11.1.27(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.1.27)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/platform-express':
-        specifier: ^11.1.0
+        specifier: 11.1.27
         version: 11.1.27(@nestjs/common@11.1.27(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)
       bullmq:
-        specifier: ^5.60.0
+        specifier: 5.79.0
         version: 5.79.0
       ioredis:
-        specifier: ^5.8.0
+        specifier: 5.11.1
         version: 5.11.1
       reflect-metadata:
-        specifier: ^0.2.2
+        specifier: 0.2.2
         version: 0.2.2
       rxjs:
-        specifier: ^7.8.0
+        specifier: 7.8.2
         version: 7.8.2
       zod:
-        specifier: ^4.1.0
+        specifier: 4.4.3
         version: 4.4.3
     devDependencies:
       '@types/supertest':
-        specifier: ^6.0.0
+        specifier: 6.0.3
         version: 6.0.3
       supertest:
-        specifier: ^7.1.0
+        specifier: 7.2.2
         version: 7.2.2
       tsx:
-        specifier: ^4.20.0
+        specifier: 4.22.4
         version: 4.22.4
 
   apps/logistics-miniapp:
     devDependencies:
       miniprogram-api-typings:
-        specifier: ^4.0.0
+        specifier: 4.1.3
         version: 4.1.3
 
   apps/merchant-web:
     dependencies:
       '@ant-design/pro-components':
-        specifier: ^2.8.0
+        specifier: 2.8.10
         version: 2.8.10(antd@5.29.3(luxon@3.7.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(rc-field-form@2.7.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/react-query':
-        specifier: ^5.90.0
+        specifier: 5.101.0
         version: 5.101.0(react@19.2.7)
       antd:
-        specifier: ^5.27.0
+        specifier: 5.29.3
         version: 5.29.3(luxon@3.7.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7
       react-dom:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
     devDependencies:
       '@vitejs/plugin-react':
-        specifier: ^5.1.0
+        specifier: 5.2.0
         version: 5.2.0(vite@7.3.5(@types/node@25.9.3)(jiti@2.7.0)(tsx@4.22.4))
       vite:
-        specifier: ^7.2.0
+        specifier: 7.3.5
         version: 7.3.5(@types/node@25.9.3)(jiti@2.7.0)(tsx@4.22.4)
 
   apps/portal-web:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.90.0
+        specifier: 5.101.0
         version: 5.101.0(react@19.2.7)
       antd:
-        specifier: ^5.27.0
+        specifier: 5.29.3
         version: 5.29.3(luxon@3.7.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       next:
-        specifier: ^16.0.0
+        specifier: 16.2.9
         version: 16.2.9(@playwright/test@1.61.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7
       react-dom:
-        specifier: ^19.2.0
+        specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
 
   apps/user-miniapp:
     devDependencies:
       miniprogram-api-typings:
-        specifier: ^4.0.0
+        specifier: 4.1.3
         version: 4.1.3
 
   packages/config:
     dependencies:
       zod:
-        specifier: ^4.1.0
+        specifier: 4.4.3
         version: 4.4.3
 
   packages/db:
     dependencies:
       '@prisma/client':
-        specifier: ^6.19.0
+        specifier: 6.19.0
         version: 6.19.0(prisma@6.19.0(typescript@5.9.3))(typescript@5.9.3)
     devDependencies:
       prisma:
-        specifier: ^6.19.0
+        specifier: 6.19.0
         version: 6.19.0(typescript@5.9.3)
 
   packages/miniapp-shared: {}
@@ -186,7 +186,7 @@ importers:
   packages/openapi-client:
     devDependencies:
       openapi-typescript:
-        specifier: ^7.10.0
+        specifier: 7.13.0
         version: 7.13.0(typescript@5.9.3)
 
   packages/shared: {}

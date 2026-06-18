@@ -12,6 +12,6 @@
     "openapi:generate": "openapi-typescript ../../docs/openapi/openapi.yaml -o src/generated.ts"
   },
   "devDependencies": {
-    "openapi-typescript": "^7.10.0"
+    "openapi-typescript": "7.13.0"
   }
 }

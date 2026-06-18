@@ -10,6 +10,6 @@
     "test": "vitest run --passWithNoTests"
   },
   "devDependencies": {
-    "miniprogram-api-typings": "^4.0.0"
+    "miniprogram-api-typings": "4.1.3"
   }
 }

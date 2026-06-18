@@ -16,24 +16,25 @@
     "test:api": "pnpm --filter @jctc/api test",
     "test:e2e:p0": "playwright test",
     "monorepo:check": "node scripts/check-monorepo-structure.mjs",
+    "versions:check": "node scripts/check-version-freeze.mjs",
     "prisma:validate": "pnpm --filter @jctc/db prisma:validate",
     "prisma:migrate:dry-run": "pnpm --filter @jctc/db prisma:migrate:dry-run",
     "openapi:check": "pnpm --filter @jctc/openapi-client openapi:check",
-    "verify": "pnpm lint && pnpm typecheck && pnpm test && pnpm prisma:validate && pnpm openapi:check && pnpm build"
+    "verify": "pnpm versions:check && pnpm lint && pnpm typecheck && pnpm test && pnpm prisma:validate && pnpm openapi:check && pnpm build"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.0",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.50.0",
-    "@typescript-eslint/parser": "^8.50.0",
-    "eslint": "^9.39.0",
-    "eslint-config-prettier": "^10.1.0",
-    "prettier": "^3.6.0",
-    "turbo": "^2.7.0",
-    "typescript": "^5.9.0",
-    "vitest": "^4.0.0"
+    "@eslint/js": "9.39.4",
+    "@playwright/test": "1.61.0",
+    "@types/node": "25.9.3",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@typescript-eslint/eslint-plugin": "8.61.1",
+    "@typescript-eslint/parser": "8.61.1",
+    "eslint": "9.39.4",
+    "eslint-config-prettier": "10.1.8",
+    "prettier": "3.8.4",
+    "turbo": "2.9.18",
+    "typescript": "5.9.3",
+    "vitest": "4.1.9"
   }
 }
