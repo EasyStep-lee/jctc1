@@ -43,6 +43,7 @@ jobs:
           node-version: 25.8.1
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm prisma:generate
       - run: pnpm lint
       - run: pnpm typecheck
       - run: pnpm test
