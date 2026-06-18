@@ -8,8 +8,10 @@
     "lint": "eslint .",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run --passWithNoTests",
+    "prisma:generate": "node scripts/run-prisma.mjs generate --schema prisma/schema.prisma",
     "prisma:validate": "node scripts/run-prisma.mjs validate --schema prisma/schema.prisma",
-    "prisma:migrate:dry-run": "node scripts/run-prisma.mjs migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script"
+    "prisma:migrate:dry-run": "node scripts/run-prisma.mjs migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script",
+    "db:check": "node scripts/check-connection.mjs"
   },
   "dependencies": {
     "@prisma/client": "6.19.0"

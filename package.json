@@ -25,10 +25,12 @@
     "test:e2e:p0": "playwright test",
     "monorepo:check": "node scripts/check-monorepo-structure.mjs",
     "versions:check": "node scripts/check-version-freeze.mjs",
+    "prisma:generate": "pnpm --filter @jctc/db prisma:generate",
     "prisma:validate": "pnpm --filter @jctc/db prisma:validate",
     "prisma:migrate:dry-run": "pnpm --filter @jctc/db prisma:migrate:dry-run",
+    "db:check": "pnpm --filter @jctc/db db:check",
     "openapi:check": "pnpm --filter @jctc/openapi-client openapi:check",
-    "verify": "pnpm versions:check && pnpm lint && pnpm typecheck && pnpm test && pnpm prisma:validate && pnpm openapi:check && pnpm build"
+    "verify": "pnpm versions:check && pnpm prisma:generate && pnpm lint && pnpm typecheck && pnpm test && pnpm prisma:validate && pnpm openapi:check && pnpm build"
   },
   "devDependencies": {
     "@eslint/js": "9.39.4",
