@@ -54,7 +54,9 @@ for (const path of packageJsonPaths) {
   for (const section of ["dependencies", "devDependencies"]) {
     const dependencies = packageJson[section] ?? {};
     for (const [name, version] of Object.entries(dependencies)) {
-      if (!exactVersionPattern.test(version)) {
+      const isInternalWorkspaceDependency = name.startsWith("@jctc/") && version === "workspace:*";
+
+      if (!exactVersionPattern.test(version) && !isInternalWorkspaceDependency) {
         failures.push(`${path} ${section}.${name} must be exact, found ${version}`);
       }
     }

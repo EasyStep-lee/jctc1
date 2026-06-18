@@ -1,8 +1,9 @@
 import "reflect-metadata";
 import { NestFactory } from "@nestjs/core";
 import { AppModule } from "./app.module.js";
+import { loadApiEnv } from "./env.js";
 
-const port = Number(process.env.PORT ?? 3000);
+const env = loadApiEnv();
 
 const app = await NestFactory.create(AppModule);
-await app.listen(port);
+await app.listen(env.PORT);
